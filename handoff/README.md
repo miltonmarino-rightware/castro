@@ -1,3 +1,26 @@
+# CASTRO’S V4 — COMEÇAR AQUI
+
+## Handoff mestre de continuidade
+
+**Ler primeiro:** [MASTER_CONTINUATION.md](MASTER_CONTINUATION.md)
+
+- Repo: [rightware-corporations/castro-service](https://github.com/rightware-corporations/castro-service)
+- Branch: `handoff/castros-v4-2026-10-17`
+- Master publicado no commit [f864607](https://github.com/rightware-corporations/castro-service/commit/f8646072ad0ac3fbb87d8cff1ce54d767e3658fe).
+- Auditoria de recuperação inicial: [e063074](https://github.com/rightware-corporations/castro-service/commit/e0630743facaade99f075ccd51a608cdc502e98e).
+- Baseline funcional preservada: `d646f1c9f2b9cb4df81cdb8d512e2db8a9777c28` (PR #66).
+- Para o HEAD mais recente, consultar o [histórico desta branch](https://github.com/rightware-corporations/castro-service/commits/handoff/castros-v4-2026-10-17) ou executar `git log -5 --oneline`.
+
+O master reúne commits recentes, arquitetura, contratos, PRs, QA comprovada vs histórica, pistas de recuperação, comandos e backlog P0/P1/P2.
+
+**O source V4 posterior continua por recuperar/publicar.** Estes commits de documentação não incorporam ficheiros locais que o chat não conseguiu ler. Não confundir a baseline remota #66 com a versão visual V4 aprovada.
+
+## Auditoria inicial preservada
+
+O conteúdo abaixo conserva o diagnóstico original. Para continuidade atual, o master acima tem precedência sobre as referências de estado deste arquivo.
+
+---
+
 # CASTRO’S V4 — HANDOFF DE RECUPERAÇÃO
 Data: 2026-10-17 (Africa/Johannesburg)
 Repositório: https://github.com/rightware-corporations/castro-service
@@ -170,3 +193,4 @@ Não substituir este diagnóstico por "tudo salvo" enquanto o source local não 
 - Preservar skip link, teclado, foco, Escape/close/focus restoration, reduced motion e state machine.
 - Não integrar PR #62 inteiro.
 - Não tratar o commit de documentação deste handoff como o commit do V4 que continua em falta.
+
